@@ -1,0 +1,20 @@
+{
+ "cell": "G1__Cell9",
+ "rows_in": 83604339,
+ "rows_deleted": 540325,
+ "rows_out": 83064014,
+ "join_part": 25,
+ "join_row": 56942009,
+ "join_line": "oxford,G1/Cell9,25,1,rest,0,10,3.41131,0,0,24.4402",
+ "ranges": [
+  {
+   "kind": "join_to_end_of_head_copy",
+   "row0": 56942009,
+   "row1": 57482333,
+   "block": 0
+  }
+ ],
+ "sha256_in": "4a2f81a2d66ddc82f4e60151088048f97f41855bdc4cbbb7f4ec2df8615c0fdc",
+ "sha256_out": "bc0a842054ab30a5effad783c68fd9c8166d0f38b92f8853fb00e1f040f29489",
+ "sec": 2107.2
+}

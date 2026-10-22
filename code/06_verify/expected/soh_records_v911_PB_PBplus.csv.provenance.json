@@ -1,0 +1,19 @@
+{
+ "origin": "5版\\03_實驗數據\\results_R3_dedup\\soh_records_v911.csv",
+ "origin_sha256": "607d544c68598ca19879cbb6f0b8462320756228a64a91fb902b6639616878e5",
+ "origin_n_rows": 894,
+ "filter": "protocol ∈ {'P-B', 'P-B+'}（原行位元組照抄，含表頭）",
+ "kept_n_rows": 447,
+ "kept_sha256": "aff027d947803939e8334c6d74063be6766c1bb4511e070063159f4fa04aedcf",
+ "counts": {
+  "nasa|P-B+|M=10.0": 20,
+  "nasa|P-B+|M=20.0": 20,
+  "nasa|P-B|M=": 20,
+  "own|P-B+|M=10.0": 45,
+  "own|P-B+|M=20.0": 45,
+  "own|P-B|M=": 45,
+  "ox|P-B+|M=10.0": 84,
+  "ox|P-B+|M=20.0": 84,
+  "ox|P-B|M=": 84
+ }
+}

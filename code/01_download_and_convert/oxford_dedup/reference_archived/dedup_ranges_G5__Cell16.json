@@ -1,0 +1,20 @@
+{
+ "cell": "G5__Cell16",
+ "rows_in": 23950769,
+ "rows_deleted": 255379,
+ "rows_out": 23695390,
+ "join_part": null,
+ "join_row": null,
+ "join_line": null,
+ "ranges": [
+  {
+   "kind": "row_duplicate_block",
+   "row0": 772407,
+   "row1": 1027785,
+   "block": 0
+  }
+ ],
+ "sha256_in": "a19fdda279c5e9ceeba51a81b13c89e5999c2a37f852c16789950799dd1b0dcb",
+ "sha256_out": "ed6cbf5b3298ac283d2a73b953f8b591853705b51ac1d7073cef8e22fc002962",
+ "sec": 812.9
+}

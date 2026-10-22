@@ -1,0 +1,12 @@
+# 新撰（公開程式包）。版本取自封存檔，不另推測：
+#   python／numpy／pandas／scikit-learn／scipy：5版\03_實驗數據\results_R3_dedup\env_v911.json（鎖定組態執行之環境紀錄：
+#     python 3.11.17、Windows-10-10.0.19045-SP0、BLAS openblas；每程序 BLAS 執行緒 1）
+#   statsmodels／patsy：5版\02_程式\05_審稿補跑\_vendor\ 之 dist-info（cluster bootstrap 程式 s6_cluster_bootstrap.py 之混合效應模型所用；
+#     原執行以 pip install --no-deps 安裝，故 statsmodels 0.15.0 之相依 formulaic 當時未安裝，公式介面經 patsy 執行）
+# Python 3.11.17
+numpy==2.4.4
+pandas==3.0.2
+scikit-learn==1.8.0
+scipy==1.17.1
+statsmodels==0.15.0
+patsy==1.0.3

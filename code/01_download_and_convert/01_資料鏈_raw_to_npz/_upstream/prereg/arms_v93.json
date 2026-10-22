@@ -1,0 +1,169 @@
+{
+ "arms": {
+  "ox-cc": {
+   "name": "Oxford CC 循環 C/2（G1／G3／G5）",
+   "hi": [
+    3.6,
+    4.0
+   ],
+   "role": "main",
+   "groups": [
+    "G1",
+    "G3",
+    "G5"
+   ],
+   "protocol": "CC 充電 C/2 循環；G1 1 天循環＋5 天日曆(90 % SoC)、G3 2 天＋10 天、G5 連續循環（ORA Part 1／2 readme）；循環放電未充飽 → UCS-5d 雙協定，標籤取 RPT"
+  },
+  "ox-cccv": {
+   "name": "Oxford CCCV 循環 C/2（G7–G10）",
+   "hi": [
+    3.6,
+    4.0
+   ],
+   "role": "main",
+   "groups": [
+    "G7",
+    "G8",
+    "G9",
+    "G10"
+   ],
+   "protocol": "CCCV 充電 C/2 循環；G7／G8 日曆 90 % SoC、G9／G10 日曆 4.2 V（ORA Part 3 readme）；循環放電為充飽 → 單協定"
+  },
+  "ox-cc-cal": {
+   "name": "Oxford CC＋日曆（G1／G3）",
+   "hi": [
+    3.6,
+    4.0
+   ],
+   "role": "secondary",
+   "groups": [
+    "G1",
+    "G3"
+   ],
+   "protocol": "ox-cc 之子臂：含日曆老化"
+  },
+  "ox-cc-cont": {
+   "name": "Oxford CC 連續（G5）",
+   "hi": [
+    3.6,
+    4.0
+   ],
+   "role": "secondary",
+   "groups": [
+    "G5"
+   ],
+   "protocol": "ox-cc 之子臂：連續循環，無日曆",
+   "gate2_note": "σ=80 mV 下峰位貼邊界 28.3 % > 20 % → Gate 2 不通過，依規則不進入 S7／S9（次要子臂，結果不報）"
+  },
+  "ox-cccv-90": {
+   "name": "Oxford CCCV＋日曆 90 %（G7／G8）",
+   "hi": [
+    3.6,
+    4.0
+   ],
+   "role": "secondary",
+   "groups": [
+    "G7",
+    "G8"
+   ],
+   "protocol": "ox-cccv 之子臂"
+  },
+  "ox-cccv-42": {
+   "name": "Oxford CCCV＋日曆 4.2 V（G9／G10）",
+   "hi": [
+    3.6,
+    4.0
+   ],
+   "role": "secondary",
+   "groups": [
+    "G9",
+    "G10"
+   ],
+   "protocol": "ox-cccv 之子臂"
+  },
+  "own": {
+   "name": "own 18650",
+   "hi": [
+    3.8,
+    4.1
+   ],
+   "role": "main",
+   "cells": [
+    "cell2",
+    "cell3"
+   ],
+   "protocol": "2.00 A 充放（0.645C），25 ℃",
+   "sigma_cap_mV": 300,
+   "note": "HI 視窗寬 300 mV → v7 上限 300 mV（掃描延伸 250／300）"
+  },
+  "nasa-2A": {
+   "name": "NASA 2 A 放電・主溫度（B0005/06/07/18/36/42/43/44）",
+   "hi": [
+    3.9,
+    4.1
+   ],
+   "role": "main",
+   "cells": [
+    "B0005",
+    "B0006",
+    "B0007",
+    "B0018",
+    "B0036",
+    "B0042",
+    "B0043",
+    "B0044"
+   ],
+   "protocol": "1.5 A CC-CV 充電；2 A 放電；事件溫度 15–35 ℃（B0042–44 為混合溫度電芯，僅取主溫度事件）"
+  },
+  "nasa-4A-40": {
+   "name": "NASA 4 A 放電・40 ℃（B0033／B0034）",
+   "hi": [
+    3.9,
+    4.1
+   ],
+   "role": "aux",
+   "cells": [
+    "B0033",
+    "B0034"
+   ],
+   "protocol": "4 A 放電；放電段溫度中位 40–42 ℃，充電事件 15–35 ℃；n=2 示意性"
+  },
+  "nasa-4A-54": {
+   "name": "NASA 4 A 放電・54 ℃（B0029–32）",
+   "hi": [
+    3.9,
+    4.1
+   ],
+   "role": "aux",
+   "cells": [
+    "B0029",
+    "B0030",
+    "B0031",
+    "B0032"
+   ],
+   "protocol": "4 A 放電，放電段溫度 53–55 ℃（原高溫組之一部分）"
+  },
+  "nasa-1A-47": {
+   "name": "NASA 1 A 放電・47 ℃（B0038–40）",
+   "hi": [
+    3.9,
+    4.1
+   ],
+   "role": "aux",
+   "cells": [
+    "B0038",
+    "B0039",
+    "B0040"
+   ],
+   "protocol": "1 A 放電，放電段溫度 46–47 ℃（原高溫組之一部分）",
+   "sigma_inherit_from": "nasa-4A-54",
+   "note": "每顆事件 33–35 < 40，S4 單顆內 70/30 掃描不可執行 → σ 繼承同資料源、同溫度域之 nasa-4A-54（揭露）"
+  }
+ },
+ "excluded": {
+  "G2／G4（6 顆）": "C/4 循環群：C/2 充電事件僅為 RPT（11–17 次／顆），SOH 範圍 < 1 %，無可估測之變異；依 UCS-16 單一充電協定，其 C/4 循環充電不進 ICA 分支",
+  "G6__Cell1": "日曆老化對照組，單顆，無同條件電芯可供 LOCO",
+  "G3__Cell15": "UCS-15 截斷檔（沿用）",
+  "G2__Cell10": "無有效放電段（沿用）"
+ }
+}

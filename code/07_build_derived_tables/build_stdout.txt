@@ -1,0 +1,270 @@
+﻿nasa__B0005.csv: rows 166 in_model 166 A1 0 A2 0 nref10 17 nref20 9 meas_frac 0.9940 orig_eq True
+nasa__B0006.csv: rows 166 in_model 166 A1 0 A2 0 nref10 17 nref20 9 meas_frac 0.8683 orig_eq True
+nasa__B0007.csv: rows 166 in_model 166 A1 0 A2 0 nref10 17 nref20 9 meas_frac 0.7784 orig_eq True
+nasa__B0018.csv: rows 131 in_model 131 A1 0 A2 0 nref10 14 nref20 7 meas_frac 0.7786 orig_eq True
+own__GA1.csv: rows 197 in_model 191 A1 0 A2 6 nref10 20 nref20 10 meas_frac 0.9949 orig_eq True
+own__GA2.csv: rows 186 in_model 182 A1 0 A2 4 nref10 19 nref20 10 meas_frac 0.9946 orig_eq True
+own__GA3.csv: rows 196 in_model 188 A1 0 A2 8 nref10 19 nref20 10 meas_frac 0.9949 orig_eq True
+own__GA4.csv: rows 185 in_model 182 A1 0 A2 3 nref10 19 nref20 10 meas_frac 0.9946 orig_eq True
+own__GA5.csv: rows 395 in_model 384 A1 0 A2 11 nref10 39 nref20 20 meas_frac 0.9975 orig_eq True
+own__GA6.csv: rows 253 in_model 248 A1 0 A2 5 nref10 25 nref20 13 meas_frac 1.0000 orig_eq True
+own__GA7.csv: rows 383 in_model 378 A1 0 A2 5 nref10 38 nref20 19 meas_frac 0.9974 orig_eq True
+own__cell2.csv: rows 471 in_model 391 A1 78 A2 2 nref10 40 nref20 20 meas_frac 0.7983 orig_eq True
+own__cell3.csv: rows 581 in_model 577 A1 0 A2 4 nref10 58 nref20 29 meas_frac 0.9707 orig_eq True
+ox__G10__Cell2.csv: rows 559 in_model 556 A1 0 A2 3 nref10 56 nref20 28 meas_frac 0.8980 orig_eq True
+ox__G10__Cell22.csv: rows 601 in_model 594 A1 1 A2 6 nref10 60 nref20 30 meas_frac 0.8785 orig_eq True
+ox__G10__Cell25.csv: rows 603 in_model 597 A1 1 A2 5 nref10 60 nref20 30 meas_frac 0.8889 orig_eq True
+ox__G1__Cell15.csv: rows 878 in_model 877 A1 1 A2 0 nref10 88 nref20 44 meas_frac 0.0250 orig_eq True
+ox__G1__Cell20.csv: rows 924 in_model 922 A1 2 A2 0 nref10 93 nref20 47 meas_frac 0.0238 orig_eq True
+ox__G1__Cell9.csv: rows 954 in_model 950 A1 4 A2 0 nref10 95 nref20 48 meas_frac 0.0241 orig_eq True
+ox__G3__Cell10.csv: rows 943 in_model 942 A1 0 A2 1 nref10 95 nref20 48 meas_frac 0.0254 orig_eq True
+ox__G3__Cell11.csv: rows 943 in_model 941 A1 2 A2 0 nref10 95 nref20 48 meas_frac 0.0243 orig_eq True
+ox__G3__Cell14.csv: rows 874 in_model 874 A1 0 A2 0 nref10 88 nref20 44 meas_frac 0.0206 orig_eq True
+ox__G5__Cell16.csv: rows 987 in_model 972 A1 4 A2 11 nref10 98 nref20 49 meas_frac 0.0298 orig_eq True
+ox__G5__Cell5.csv: rows 1124 in_model 1110 A1 2 A2 12 nref10 111 nref20 56 meas_frac 0.0261 orig_eq True
+ox__G5__Cell6.csv: rows 1306 in_model 1288 A1 7 A2 11 nref10 129 nref20 65 meas_frac 0.0261 orig_eq True
+ox__G7__Cell19.csv: rows 241 in_model 237 A1 0 A2 4 nref10 24 nref20 12 meas_frac 0.7884 orig_eq True
+ox__G7__Cell27.csv: rows 227 in_model 225 A1 0 A2 2 nref10 23 nref20 12 meas_frac 0.7753 orig_eq True
+ox__G7__Cell4.csv: rows 242 in_model 238 A1 1 A2 3 nref10 24 nref20 12 meas_frac 0.7893 orig_eq True
+ox__G8__Cell18.csv: rows 266 in_model 265 A1 0 A2 1 nref10 27 nref20 14 meas_frac 0.8872 orig_eq True
+ox__G8__Cell20.csv: rows 266 in_model 266 A1 0 A2 0 nref10 27 nref20 14 meas_frac 0.8835 orig_eq True
+ox__G8__Cell5.csv: rows 305 in_model 305 A1 0 A2 0 nref10 31 nref20 16 meas_frac 0.8885 orig_eq True
+ox__G9__Cell1.csv: rows 282 in_model 279 A1 0 A2 3 nref10 28 nref20 14 meas_frac 0.8262 orig_eq True
+ox__G9__Cell8.csv: rows 282 in_model 279 A1 0 A2 3 nref10 28 nref20 14 meas_frac 0.8333 orig_eq True
+ox__G9__Cell9.csv: rows 284 in_model 280 A1 0 A2 4 nref10 28 nref20 14 meas_frac 0.8451 orig_eq True
+{
+ "n_cells": 34,
+ "n_cells_by_source": {
+  "nasa": 4,
+  "own": 9,
+  "ox": 21
+ },
+ "all_orig_columns_equal_archived": true,
+ "all_cyc_axis_equals_model_cyc": true,
+ "frames_n_ev_sum_equals_npz_events": true,
+ "n_rows_unmapped_meas_total": 0,
+ "rows_total": 16567,
+ "rows_by_source": {
+  "nasa": 629,
+  "own": 2847,
+  "ox": 13091
+ },
+ "rows_per_cell_range_by_source": {
+  "nasa": [
+   131,
+   166
+  ],
+  "own": [
+   185,
+   581
+  ],
+  "ox": [
+   227,
+   1306
+  ]
+ },
+ "events_pre_gate_by_source": {
+  "nasa": 632,
+  "own": 2847,
+  "ox": 14174
+ },
+ "q_ref_range_by_source": {
+  "nasa": [
+   1.85102028,
+   2.0414030899999998
+  ],
+  "own": [
+   3.09891,
+   3.13654
+  ],
+  "ox": [
+   2.9476999183999997,
+   3.0708455306
+  ]
+ },
+ "A1_removed_by_cell_nonzero": {
+  "cell2": 78,
+  "G10__Cell22": 1,
+  "G10__Cell25": 1,
+  "G1__Cell15": 1,
+  "G1__Cell20": 2,
+  "G1__Cell9": 4,
+  "G3__Cell11": 2,
+  "G5__Cell16": 4,
+  "G5__Cell5": 2,
+  "G5__Cell6": 7,
+  "G7__Cell4": 1
+ },
+ "A1_removed_by_source": {
+  "nasa": 0,
+  "own": 78,
+  "ox": 25
+ },
+ "A1_fail_all_rows_by_source": {
+  "nasa": 0,
+  "own": 79,
+  "ox": 35
+ },
+ "A2_removed_by_source": {
+  "nasa": 0,
+  "own": 48,
+  "ox": 69
+ },
+ "A2_removed_own_GA": 42,
+ "A2_removed_own_cell2_cell3": 6,
+ "dropna_removed_by_source": {
+  "nasa": 0,
+  "own": 0,
+  "ox": 0
+ },
+ "in_model_by_source": {
+  "nasa": 629,
+  "own": 2721,
+  "ox": 12997
+ },
+ "n_ref_M10_by_source": {
+  "nasa": {
+   "mean": 16.25,
+   "min": 14,
+   "max": 17
+  },
+  "own": {
+   "mean": 30.77777777777778,
+   "min": 19,
+   "max": 58
+  },
+  "ox": {
+   "mean": 62.285714285714285,
+   "min": 23,
+   "max": 129
+  }
+ },
+ "n_ref_M10_ox_G1G3G5_range": [
+  88,
+  129
+ ],
+ "n_ref_M20_by_source": {
+  "nasa": {
+   "mean": 8.5,
+   "min": 7,
+   "max": 9
+  },
+  "own": {
+   "mean": 15.666666666666666,
+   "min": 10,
+   "max": 29
+  },
+  "ox": {
+   "mean": 31.38095238095238,
+   "min": 12,
+   "max": 65
+  }
+ },
+ "n_ref_M20_ox_G1G3G5_range": [
+  44,
+  65
+ ],
+ "measured_fraction_event": {
+  "nasa": [
+   0.7784431137724551,
+   0.9940119760479041
+  ],
+  "own": [
+   0.7983014861995754,
+   1.0
+  ],
+  "own_cell2": 0.7983014861995754,
+  "own_cell3": 0.9707401032702238,
+  "own_GA": [
+   0.9945945945945946,
+   1.0
+  ],
+  "ox_G1G3G5": [
+   0.02057142857142857,
+   0.029770992366412213
+  ],
+  "ox_G7_G10": [
+   0.775330396475771,
+   0.8980322003577818
+  ]
+ },
+ "measured_fraction_row": {
+  "nasa": [
+   0.7786259541984732,
+   1.0
+  ],
+  "own": [
+   0.7983014861995754,
+   1.0
+  ],
+  "ox": [
+   0.020594965675057208,
+   0.8980322003577818
+  ]
+ },
+ "B0005_events_and_ref_discharges": [
+  167,
+  168
+ ],
+ "label_stratum_counts": {
+  "measured": 25,
+  "interpolated": 9
+ },
+ "clusters": [
+  "NASA_B0005",
+  "NASA_B0006",
+  "NASA_B0007",
+  "NASA_B0018",
+  "OWN_GA1-GA7",
+  "OWN_cell2/cell3",
+  "OX_G1",
+  "OX_G10",
+  "OX_G3",
+  "OX_G5",
+  "OX_G7",
+  "OX_G8",
+  "OX_G9"
+ ],
+ "vs_c2_measured_fraction": {
+  "n": 34,
+  "counts_all_equal": true,
+  "n_frac_bit_identical": 20,
+  "max_frac_abs_diff": 1.1102230246251565e-16,
+  "all_equal_tol_1e9": true,
+  "mismatches_tol_1e9": []
+ },
+ "vs_frames_meas_flag_archived": {
+  "n_rows_ours": 16567,
+  "n_rows_archived_in_frames": 16567,
+  "n_unmatched": 0,
+  "n_is_measured_diff": 0,
+  "n_n_meas_ev_diff": 0
+ },
+ "vs_census_v911": {
+  "all_equal": true,
+  "in_model_equals_n_model_rows_minus_A1": true,
+  "mismatches": []
+ },
+ "vs_soh_records_PBplus": {
+  "n_record_rows": 298,
+  "n_cells": 34,
+  "all_equal": true,
+  "mismatches": []
+ },
+ "vs_soh_predictions_PBplus_GPR_LSP": {
+  "n_keys": 68,
+  "all_found": true,
+  "all_ref_cyc_equal": true,
+  "all_eval_cyc_equal": true,
+  "n_eval_y_bit_identical": 0,
+  "max_eval_y_abs_diff": 2.220446049250313e-16,
+  "all_eval_y_equal_tol_1e9": true,
+  "failures_tol_1e9": []
+ },
+ "vs_core_load_frames_apply_delta": {
+  "core_dir": "02_programs",
+  "n_cells": 34,
+  "all_equal": true,
+  "failures": []
+ }
+}

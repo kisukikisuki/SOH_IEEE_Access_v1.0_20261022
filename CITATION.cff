@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite it as below."
+title: "Reference-aware cross-cell SOH evaluation: analysis code and derived data"
+version: "1.0"
+authors:
+  - family-names: Cai
+    given-names: Ming-Jia
+    affiliation: "National Kaohsiung University of Science and Technology"
+  - family-names: Dai
+    given-names: Hong-Jie
+    affiliation: "National Kaohsiung University of Science and Technology"
+  - family-names: Wu
+    given-names: Tsung-Hsun
+    affiliation: "National Kaohsiung University of Science and Technology"
+license:
+  - MIT
+  - ODbL-1.0
+abstract: >-
+  Companion code and per-row derived data for the manuscript "Do Partial
+  Incremental Capacity Features Beat Holding the Last Measured Reference
+  Capacity? A Reference-Aware Cross-Cell Evaluation of State-of-Health
+  Estimation for 18650 Lithium-Ion Cells". Re-runs P-B/P-B+, the ZOH, LIN2
+  and LINALL baselines and the cluster bootstrap from the derived tables of
+  34 cells.
+keywords:
+  - state of health
+  - lithium-ion battery
+  - incremental capacity analysis
+  - Gaussian process
+  - evaluation protocol

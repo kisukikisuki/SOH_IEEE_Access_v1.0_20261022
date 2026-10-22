@@ -96,8 +96,8 @@
 
 ## 7. 來源與授權
 
-- Oxford 衍生列（`ox__*.csv`）源自 Oxford 路徑相依劣化資料（T. Raj，牛津大學；Part 1 DOI 10.5287/bodleian:v0ervBv6p、Part 2 DOI 10.5287/bodleian:2zvyknyRg、Part 3 DOI 10.5287/bodleian:j1a2eD7ow），該資料依 Open Data Commons Open Database License 取得（v34「資料可用性」原文）。衍生列之再散布條件：待作者填寫。
+- Oxford 衍生列（`ox__*.csv`）源自 Oxford 路徑相依劣化資料（T. Raj，牛津大學；Part 1 DOI 10.5287/bodleian:v0ervBv6p、Part 2 DOI 10.5287/bodleian:2zvyknyRg、Part 3 DOI 10.5287/bodleian:j1a2eD7ow），該資料依 Open Data Commons Open Database License 取得（v34「資料可用性」原文）。本包 `data/` 依 ODbL-1.0 再散布（`data/LICENSE`）。
 - NASA 衍生列（`nasa__*.csv`）源自 NASA Ames 預後卓越中心之 Battery Data Set（B. Saha 與 K. Goebel，2007）。其授權條款：待作者填寫。
 - 自有衍生列（`own__*.csv`）：源自作者實驗室資料；v34 載明原始循環資料不公開。本包只含其逐列衍生值，是否公開之最終決定：待作者填寫。
-- 本包之授權：待作者填寫。
+- 本包之授權：`data/` 採 Open Data Commons Open Database License（ODbL）v1.0，全文見 `data/LICENSE`（取自 https://opendatacommons.org/licenses/odbl/odbl-10.txt ）；程式採 MIT 授權，見最上層 `LICENSE`。
 - 不含 v34 排除之電芯（Oxford 第 2、4、6 組與 G3 Cell15）。

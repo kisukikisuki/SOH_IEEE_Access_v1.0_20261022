@@ -4,9 +4,8 @@
 
 > 〈部分增量容量特徵能否勝過保持最近一次實測參考容量？18650 鋰離子電芯健康狀態估測之參考感知跨電芯評估〉
 > 作者：MING-JIA CAI、HONG-JIE DAI、TSUNG-HSUN WU；預定投稿 *IEEE Access*。
-> 作者順序待作者確認：中文版 v34 為 Cai、Dai、Wu，英文版 v34-EN 為 Dai、Cai、Wu。
 
-論文 DOI：待作者填寫　Zenodo DOI：待作者填寫　ORCID：待作者填寫　授權：待作者填寫（見第 6 節）
+論文 DOI：待作者填寫　Zenodo DOI：待作者填寫　ORCID：待作者填寫　授權：程式 MIT（`LICENSE`）、衍生資料 ODbL-1.0（`data/LICENSE`），見第 6 節；引用資訊：`CITATION.cff`
 
 ## 本包內容
 
@@ -84,7 +83,7 @@ statsmodels：封存執行時 statsmodels 0.15.0 與 patsy 1.0.3 以 `pip instal
 - NASA 電池資料集（B. Saha 與 K. Goebel，NASA Ames 預後卓越中心，2007；B0005、B0006、B0007、B0018）：https://www.nasa.gov/intelligent-systems-division/discovery-and-systems-health/pcoe/pcoe-data-set-repository/ ——授權：待作者填寫。
 - Oxford 路徑相依劣化資料（T. Raj，牛津大學；Part 1 為 2020 年，Part 2 與 Part 3 為 2021 年），Oxford Research Archive，Open Data Commons Open Database License：Part 1 https://doi.org/10.5287/bodleian:v0ervBv6p、Part 2 https://doi.org/10.5287/bodleian:2zvyknyRg、Part 3 https://doi.org/10.5287/bodleian:j1a2eD7ow。`data/` 中 Oxford 各列衍生自此 ODbL 資料。
 - 自有 NCR18650GA（cell2、cell3、GA1–GA7）：原始資料不公開，僅含逐列衍生表。
-- 本包程式與衍生表之授權：待作者填寫。
+- 本包授權：程式採 MIT 授權（`LICENSE`）；`data/` 之衍生資料採 Open Data Commons Open Database License（ODbL）v1.0（`data/LICENSE`；https://opendatacommons.org/licenses/odbl/1-0/）。其中 Oxford 各列含有依 ODbL 提供之 Oxford 路徑相依劣化資料。
 
 ## 7. 引用
 

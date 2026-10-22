@@ -6,9 +6,9 @@ Companion code and data for the manuscript
 
 > **Do Partial Incremental Capacity Features Beat Holding the Last Measured Reference Capacity? A Reference-Aware Cross-Cell Evaluation of State-of-Health Estimation for 18650 Lithium-Ion Cells**
 > Authors: Ming-Jia Cai, Hong-Jie Dai, Tsung-Hsun Wu — manuscript prepared for *IEEE Access*.
-> Title from the English version v34-EN. Author order *to be confirmed by the authors*: the Chinese version v34 lists Cai, Dai, Wu; the English version v34-EN lists Dai, Cai, Wu.
+> Title from the English version v34-EN.
 
-Paper DOI: *to be filled in by the authors* · Zenodo DOI of this package: *to be filled in by the authors* · ORCID: *to be filled in by the authors* · License: *to be filled in by the authors* (see Section 6).
+Paper DOI: *to be filled in by the authors* · Zenodo DOI of this package: *to be filled in by the authors* · ORCID: *to be filled in by the authors* · License: code MIT (`LICENSE`), derived data ODbL-1.0 (`data/LICENSE`) — see Section 6. Citation metadata: `CITATION.cff`.
 
 ## What this package contains
 
@@ -143,7 +143,7 @@ data/                        derived per-row tables, per-cell summary, data dict
 - NASA battery data set (B. Saha and K. Goebel, NASA Ames Prognostics Center of Excellence, 2007; cells B0005, B0006, B0007, B0018): https://www.nasa.gov/intelligent-systems-division/discovery-and-systems-health/pcoe/pcoe-data-set-repository/ — licence of the NASA data: *to be filled in by the authors*.
 - Oxford path-dependent degradation data (T. Raj, University of Oxford; Part 1 2020, Parts 2 and 3 2021), Oxford Research Archive, Open Data Commons Open Database License: Part 1 https://doi.org/10.5287/bodleian:v0ervBv6p · Part 2 https://doi.org/10.5287/bodleian:2zvyknyRg · Part 3 https://doi.org/10.5287/bodleian:j1a2eD7ow. The Oxford rows of `data/` are derived from these ODbL data.
 - Own NCR18650GA cells (cell2, cell3, GA1–GA7): raw data not public; only the derived per-row tables are included.
-- Licence of this code and of the derived tables: *to be filled in by the authors*.
+- Licence of this package: the code is released under the MIT License (`LICENSE`); the derived data in `data/` are released under the Open Data Commons Open Database License (ODbL) v1.0 (`data/LICENSE`; https://opendatacommons.org/licenses/odbl/1-0/). The Oxford rows contain information from the Oxford path-dependent degradation data, which is made available under the ODbL.
 
 ## 7. Citation
 

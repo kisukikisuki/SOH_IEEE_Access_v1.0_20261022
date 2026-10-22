@@ -1,6 +1,8 @@
 path,kind,origin,sha256,role,v34_section
-README.md,new,NEW,4ab6faf6a67ea345c3dae325a951bc224cc4633ec9a7d775eca91202c203460f,說明文件（英文）,全文；資料可用性
-README_zh-TW.md,new,NEW,549af6d44645617721df66c25b7401c891aaad31e4a7e97a91fde2486c13fabd,說明文件（繁體中文）,全文；資料可用性
+CITATION.cff,new,NEW,34260f0501cb0925b360c46a9022e2a4a5e4dad8d7899c203e8c2272f80dc2c4,引用中繼資料,—
+LICENSE,new,NEW,a6cfdbcb85249261010d6799f4ce89a9cd9a95b1cb0620b09198b9afdcff8199,程式授權（MIT）,—
+README.md,new,NEW,30e180889470a2c4fe11cb465ed7fc5c77f4f9337f6e6e4d7b644cc782f1c1a5,說明文件（英文）,全文；資料可用性
+README_zh-TW.md,new,NEW,d5cc8cbfab766346a73787e61697e072552a3ef5fac3f108b890e25534ac2430,說明文件（繁體中文）,全文；資料可用性
 code/01_download_and_convert/01_資料鏈_raw_to_npz/_upstream/a_layer_fix_v9a.py,copied,5版/02_程式/01_資料鏈_raw_to_npz/_upstream/a_layer_fix_v9a.py,fe25d54283cfc722ed654a159764dc93fd8fa470b3df6474303fe2fca5844408,A 層時間戳缺陷修正（Ah 改用 Q 欄極差）後重算 cyc_A／EFC,II-A
 code/01_download_and_convert/01_資料鏈_raw_to_npz/_upstream/a_layer_full.py,copied,5版/02_程式/01_資料鏈_raw_to_npz/_upstream/a_layer_full.py,7fb05003b55fdda1289e6ade95eaa67761edd9c0db3573a8bd87a3938ae0cf40,A 層段表、cyc_A 循環計數、EFC,II-A
 code/01_download_and_convert/01_資料鏈_raw_to_npz/_upstream/extract_nasa2.py,copied,5版/02_程式/01_資料鏈_raw_to_npz/_upstream/extract_nasa2.py,de962d29bf560de466c2d1f7a30304e1fc961d798af9af8e452d74d76da87a1d,NASA 擷取：CC 段 Q(V) 5 mV 網格、放電段容量,II-C；II-B
@@ -56,7 +58,8 @@ code/06_verify/reproduce_v34_numbers.py,new,NEW,f56c5c2375ece44ad55e436a4c2f5af0
 code/07_build_derived_tables/build_derived_tables.py,new,NEW,6886eeef4468ad6041d6050d37f1f53ce34645b72fa9e0a3d9d66eed7a06f6ec,衍生表建置與驗證（新撰；邏輯引用見檔頭）,II-B；II-C；III-A
 code/07_build_derived_tables/build_log.json,derived,NEW,bab0cedda6e8aeb3179d006074a67e3739401b171fb003a1054e25f933e51792,建置執行紀錄（UTC 由程式取得）與全部驗證結果,II；III-A；表 2；表 8
 code/07_build_derived_tables/build_stdout.txt,derived,NEW,4989d2e0cddc07a04a93c0c44adeb5ba6b49670cfa8a4eee1565e3ba0e6aaf21,建置標準輸出,—
-data/DATA_DICTIONARY.md,new,NEW,5348d9f22db24057808964c60fcff34f2b5699bc20ad91843d7eeb84f83946d9,資料字典（欄位、單位、程式出處、來源與授權）,II；III-A
+data/DATA_DICTIONARY.md,new,NEW,96fee71a5dc2cd735aa4061a0ad51cbdad2cfc9e9a88975a9690ed8532bce534,資料字典（欄位、單位、程式出處、來源與授權）,II；III-A
+data/LICENSE,license text,https://opendatacommons.org/licenses/odbl/odbl-10.txt,607680718977f6f6c9607972afd98f208573f19251315ed1362a8589b51beaf5,衍生資料授權（ODbL-1.0 官方全文，未修改）,資料可用性
 data/cells_summary.csv,derived,NEW,29172220513b2bef032cd08342d3940928c328e2b38be35d53e58315ee98fab9,每顆摘要（cluster、label_stratum、q_ref、A1/A2、實測參考比例、n_ref）,表 2；表 8；II-B；III-E
 data/derived_per_row/nasa__B0005.csv,derived,5版/03_實驗數據/results_R3_dedup/frames/nasa__B0005.csv (+ann_* 欄),57efdf2b3e4e0a16f3cbc12595de7627db128c92f7502d51985c9d719f955bc9,逐列衍生資料表（封存 frames 原欄＋ann_ 標註）,II；III-A
 data/derived_per_row/nasa__B0006.csv,derived,5版/03_實驗數據/results_R3_dedup/frames/nasa__B0006.csv (+ann_* 欄),6a5584561c10d2cb06294d2f6432c9de153c688532d606776cc30e14b498843e,逐列衍生資料表（封存 frames 原欄＋ann_ 標註）,II；III-A

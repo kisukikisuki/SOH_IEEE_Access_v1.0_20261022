@@ -1,8 +1,8 @@
 path,kind,origin,sha256,role,v34_section
-CITATION.cff,new,NEW,34260f0501cb0925b360c46a9022e2a4a5e4dad8d7899c203e8c2272f80dc2c4,引用中繼資料,—
+CITATION.cff,new,NEW,f2a132567c722a76b5e2210f08c61754cf1beb47b426364b6bea0da785d9eb89,引用中繼資料,—
 LICENSE,new,NEW,a6cfdbcb85249261010d6799f4ce89a9cd9a95b1cb0620b09198b9afdcff8199,程式授權（MIT）,—
-README.md,new,NEW,30e180889470a2c4fe11cb465ed7fc5c77f4f9337f6e6e4d7b644cc782f1c1a5,說明文件（英文）,全文；資料可用性
-README_zh-TW.md,new,NEW,d5cc8cbfab766346a73787e61697e072552a3ef5fac3f108b890e25534ac2430,說明文件（繁體中文）,全文；資料可用性
+README.md,new,NEW,0bf835d86f9954819c03401cafb4905aae7c2071f4272ce1a0f5de83d4ae3298,說明文件（英文）,全文；資料可用性
+README_zh-TW.md,new,NEW,51cfa88c67cf24d354cb1454ae140123aeb77b6db7a8ba1ab161aa8c86d3428d,說明文件（繁體中文）,全文；資料可用性
 code/01_download_and_convert/01_資料鏈_raw_to_npz/_upstream/a_layer_fix_v9a.py,copied,5版/02_程式/01_資料鏈_raw_to_npz/_upstream/a_layer_fix_v9a.py,fe25d54283cfc722ed654a159764dc93fd8fa470b3df6474303fe2fca5844408,A 層時間戳缺陷修正（Ah 改用 Q 欄極差）後重算 cyc_A／EFC,II-A
 code/01_download_and_convert/01_資料鏈_raw_to_npz/_upstream/a_layer_full.py,copied,5版/02_程式/01_資料鏈_raw_to_npz/_upstream/a_layer_full.py,7fb05003b55fdda1289e6ade95eaa67761edd9c0db3573a8bd87a3938ae0cf40,A 層段表、cyc_A 循環計數、EFC,II-A
 code/01_download_and_convert/01_資料鏈_raw_to_npz/_upstream/extract_nasa2.py,copied,5版/02_程式/01_資料鏈_raw_to_npz/_upstream/extract_nasa2.py,de962d29bf560de466c2d1f7a30304e1fc961d798af9af8e452d74d76da87a1d,NASA 擷取：CC 段 Q(V) 5 mV 網格、放電段容量,II-C；II-B

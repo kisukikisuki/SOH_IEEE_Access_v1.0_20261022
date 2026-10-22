@@ -1,6 +1,6 @@
 # Reference-aware cross-cell SOH evaluation — analysis code and derived data
 
-Package version 1.0 (corresponds to manuscript version v34, 2026-10-22).
+Package version 1.0.1 (corresponds to manuscript version v34, 2026-10-22). Version 1.0.1 differs from 1.0 only in `CITATION.cff` (single licence entry, so that Zenodo can read it), this README and the checksum files.
 
 Companion code and data for the manuscript
 
@@ -74,7 +74,7 @@ The original baseline script `soh_post_v911r.py` also computes, at module level,
 
 Results of these five steps on the original workstation (Windows 10, 20 logical cores, `--workers 18`, one BLAS thread per process, statsmodels/patsy as above), in three independent runs on 2026-10-22 (one of them by an independent reviewer):
 
-- Step 1 produced 447 result rows (P-B 149, P-B+ M = 10 149, P-B+ M = 20 149). Runner wall-clock (`wall_sec` in `run_info.json`): 1923 s, 1938 s and 1908 s. The last run used the version 1.0 files of this package. The first two used pre-release versions of the new files (which were later revised, including the baseline wrapper's handling of side outputs); in all three runs every compared value was identical to the archived results.
+- Step 1 produced 447 result rows (P-B 149, P-B+ M = 10 149, P-B+ M = 20 149). Runner wall-clock (`wall_sec` in `run_info.json`): 1923 s, 1938 s and 1908 s. The last run used the version 1.0 files of this package (code and data are unchanged in 1.0.1). The first two used pre-release versions of the new files (which were later revised, including the baseline wrapper's handling of side outputs); in all three runs every compared value was identical to the archived results.
 - Step 4: every compared value was identical to the archived results (maximum absolute difference 0 at tolerance 1e-9). Step 5: all 145 re-computed numbers matched the paper. `reproduce_v34_numbers.py` rounds with Python's format, which rounds half to even; this matters for one value, the NASA mean n_ref at M = 10 (16.25, printed 16.2 in Table 8).
 
 **Cross-platform caveat (paper Sec. III-F).** On a different platform the features and the Ridge and SVR errors were reproduced, but the GPR and MLP errors were not bit-identical. Expect small differences in GPR/MLP-based numbers outside the original environment; `compare_to_archive.py` reports every difference rather than hiding it.
